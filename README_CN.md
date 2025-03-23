@@ -1,9 +1,17 @@
 ![封面图](./resources/header.png)
 
 <p align="center">
+  <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/subframe7536/maple-font">
+  <img alt="GitHub Downloads (all assets, all releases)" src="https://img.shields.io/github/downloads/subframe7536/maple-font/total">
+  <img alt="GitHub Release" src="https://img.shields.io/github/v/release/subframe7536/maple-font">
+  <img alt="X (formerly Twitter) Follow" src="https://img.shields.io/twitter/follow/subframe7536">
+</p>
+
+<p align="center">
   <a href="#下载">下载</a> |
   <a href="https://font.subf.dev">网站</a> |
   <a href="./README.md">English</a> |
+  <a href="./README_JA.md">日本語</a> |
   中文
 </p>
 
@@ -42,44 +50,154 @@ CN 版本基于[资源圆体](https://github.com/CyanoHao/Resource-Han-Rounded)�
 您可以从 [Releases](https://github.com/subframe7536/maple-font/releases) 下载所有字体压缩包。
 
 ### Scoop (Windows)
-```sh
-# 添加 bucket
-scoop bucket add nerd-fonts
-# Maple Mono (ttf 格式)
-scoop install Maple-Mono
-# Maple Mono (hinted ttf 格式)
-scoop install Maple-Mono-autohint
-# Maple Mono (otf 格式)
-scoop install Maple-Mono-otf
-# Maple Mono NF
-scoop install Maple-Mono-NF
-# Maple Mono NF CN
-scoop install Maple-Mono-NF-CN
-```
+
+<details>
+  <summary>点击展开</summary>
+
+  ```sh
+  # 添加 bucket
+  scoop bucket add nerd-fonts
+  # Maple Mono (ttf 格式)
+  scoop install Maple-Mono
+  # Maple Mono (hinted ttf 格式)
+  scoop install Maple-Mono-autohint
+  # Maple Mono (otf 格式)
+  scoop install Maple-Mono-otf
+  # Maple Mono NF
+  scoop install Maple-Mono-NF
+  # Maple Mono NF CN
+  scoop install Maple-Mono-NF-CN
+  ```
+
+</details>
 
 ### Homebrew (MacOS, Linux)
 
-```sh
-# Maple Mono
-brew install --cask font-maple-mono
-# Maple Mono NF
-brew install --cask font-maple-mono-nf
-# Maple Mono CN
-brew install --cask font-maple-mono-cn
-# Maple Mono NF CN
-brew install --cask font-maple-mono-nf-cn
-```
+<details>
+  <summary>点击展开</summary>
+
+  ```sh
+  # Maple Mono
+  brew install --cask font-maple-mono
+  # Maple Mono NF
+  brew install --cask font-maple-mono-nf
+  # Maple Mono CN
+  brew install --cask font-maple-mono-cn
+  # Maple Mono NF CN
+  brew install --cask font-maple-mono-nf-cn
+
+  # Maple Mono Normal
+  brew install --cask font-maple-mono-normal
+  # Maple Mono Normal NF
+  brew install --cask font-maple-mono-normal-nf
+  # Maple Mono Normal CN
+  brew install --cask font-maple-mono-normal-cn
+  # Maple Mono Normal NF CN
+  brew install --cask font-maple-mono-normal-nf-cn
+  ```
+
+</details>
 
 ### AUR (Arch Linux)
 
-```shell
-# Maple Mono
-paru -S ttf-maple-beta
-# Maple Mono NF
-paru -S ttf-maple-beta-nf
-# Maple Mono NF CN
-paru -S ttf-maple-beta-nf-cn
-```
+<details>
+  <summary>点击展开</summary>
+
+  ```sh
+  # Maple Mono (Ligature Variable)
+  paru -S maplemono-variable
+  # Maple Mono (Ligature TTF hinted)
+  paru -S maplemono-ttf-autohint
+  # Maple Mono (Ligature TTF unhinted)
+  paru -S maplemono-ttf
+  # Maple Mono (Ligature OTF)
+  paru -S maplemono-otf
+  # Maple Mono (Ligature WOFF2)
+  paru -S maplemono-woff2
+  # Maple Mono NF (Ligature hinted)
+  paru -S maplemono-nf
+  # Maple Mono NF (Ligature unhinted)
+  paru -S maplemono-nf-unhinted
+  # Maple Mono CN (Ligature hinted)
+  paru -S maplemono-cn
+  # Maple Mono CN (Ligature unhinted)
+  paru -S maplemono-cn-unhinted
+  # Maple Mono NF CN (Ligature hinted)
+  paru -S maplemono-nf-cn
+  # Maple Mono NF CN (Ligature unhinted)
+  paru -S maplemono-nf-cn-unhinted
+  
+  # Maple Mono (No-Ligature Variable)
+  paru -S maplemononl-variable
+  # Maple Mono (No-Ligature TTF hinted)
+  paru -S maplemononl-ttf-autohint
+  # Maple Mono (No-Ligature TTF unhinted)
+  paru -S maplemononl-ttf
+  # Maple Mono (No-Ligature OTF)
+  paru -S maplemononl-otf
+  # Maple Mono (No-Ligature WOFF2)
+  paru -S maplemononl-woff2
+  # Maple Mono NF (No-Ligature hinted)
+  paru -S maplemononl-nf
+  # Maple Mono NF (No-Ligature unhinted)
+  paru -S maplemononl-nf-unhinted
+  # Maple Mono CN (No-Ligature hinted)
+  paru -S maplemononl-cn
+  # Maple Mono CN (No-Ligature unhinted)
+  paru -S maplemononl-cn-unhinted
+  # Maple Mono NF CN (No-Ligature hinted)
+  paru -S maplemononl-nf-cn
+  # Maple Mono NF CN (No-Ligature unhinted)
+  paru -S maplemononl-nf-cn-unhinted
+  
+  # Maple Mono Normal (Ligature Variable)
+  paru -S maplemononormal-variable
+  # Maple Mono Normal (Ligature TTF hinted)
+  paru -S maplemononormal-ttf-autohint
+  # Maple Mono Normal (Ligature TTF unhinted)
+  paru -S maplemononormal-ttf
+  # Maple Mono Normal (Ligature OTF)
+  paru -S maplemononormal-otf
+  # Maple Mono Normal (Ligature WOFF2)
+  paru -S maplemononormal-woff2
+  # Maple Mono Normal NF (Ligature hinted)
+  paru -S maplemononormal-nf
+  # Maple Mono Normal NF (Ligature unhinted)
+  paru -S maplemononormal-nf-unhinted
+  # Maple Mono Normal CN (Ligature hinted)
+  paru -S maplemononormal-cn
+  # Maple Mono Normal CN (Ligature unhinted)
+  paru -S maplemononormal-cn-unhinted
+  # Maple Mono Normal NF CN (Ligature hinted)
+  paru -S maplemononormal-nf-cn
+  # Maple Mono Normal NF CN (Ligature unhinted)
+  paru -S maplemononormal-nf-cn-unhinted
+  
+  # Maple Mono Normal (No-Ligature Variable)
+  paru -S maplemononormalnl-variable
+  # Maple Mono Normal (No-Ligature TTF hinted)
+  paru -S maplemononormalnl-ttf-autohint
+  # Maple Mono Normal (No-Ligature TTF unhinted)
+  paru -S maplemononormalnl-ttf
+  # Maple Mono Normal (No-Ligature OTF)
+  paru -S maplemononormalnl-otf
+  # Maple Mono Normal (No-Ligature WOFF2)
+  paru -S maplemononormalnl-woff2
+  # Maple Mono Normal NF (No-Ligature hinted)
+  paru -S maplemononormalnl-nf
+  # Maple Mono Normal NF (No-Ligature unhinted)
+  paru -S maplemononormalnl-nf-unhinted
+  # Maple Mono Normal CN (No-Ligature hinted)
+  paru -S maplemononormalnl-cn
+  # Maple Mono Normal CN (No-Ligature unhinted)
+  paru -S maplemononormalnl-cn-unhinted
+  # Maple Mono Normal NF CN (No-Ligature hinted)
+  paru -S maplemononormalnl-nf-cn
+  # Maple Mono Normal NF CN (No-Ligature unhinted)
+  paru -S maplemononormalnl-nf-cn-unhinted
+  ```
+
+</details>
 
 ## CDN
 
@@ -271,6 +389,10 @@ Build Options:
 ## 赞助
 
 如果这个字体对您有所帮助，可以通过 [爱发电](https://afdian.com/a/subframe7536) 赞助我
+
+## 点星
+
+[![Star History Chart](https://api.star-history.com/svg?repos=subframe7536/maple-font&type=Date)](https://www.star-history.com/#subframe7536/maple-font&Date)
 
 ## 许可
 
